@@ -1,6 +1,4 @@
-print("sumit is good boy akashs is also a good boy ")
-print('sumit is good boy \n"akashs" is also a good boy' )
-print('sumit is good boy\t"akashs" is also a good boy' )
+print("hello world")
 str1="sumit is the best coder in the world"
 str2="mahant is the cast of sumit which realy dose not matter "
 print(str1+str2)
@@ -14,3 +12,8 @@ print(str1.capitalize())
 print(str1.center(100))
 print(str1.count(""))
 print(str1.casefold())
+
+name=input("Enter your first name:")
+print("Length of your name is:")
+print(len(name))
+str4=("")
