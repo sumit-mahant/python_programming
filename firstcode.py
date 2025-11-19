@@ -30,10 +30,12 @@ print(type(r))
 a=40
 b=11
 print(a+b,a-b,a*b,a/b,a%b,)
+#Arithmetic Operators 
 print(a-b)
 print(a*b)
 print(a/b)
-print(a%b)
+print(a%b) #reminder
+print(a**b)#a^b
 # COMMENTS IN PYTHON
 #single line comment
 #shortcut for multiple line comment
@@ -42,3 +44,13 @@ print(a%b)
  Multi line
   comment this is usefull.
   """
+#RELATIONAL/COMPARISON OPERATORS
+c=50
+d=20
+
+print(c==d)#False(equel to )
+print(c!=d)#True(not equel to )
+print(c>=d)#True
+print(c>d)#True
+print(c<=d)#False
+print(c<d)#False
