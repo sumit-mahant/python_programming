@@ -16,7 +16,7 @@ print("my name is :",name)
 print("my age is:",age)
 print(price)
 # DATATYPE
-str3="paro."#sting
+str3="paro."#sting== "",'', ''' ''', all works same!
 number=20#int
 point=20.345#float
 old=False#bool (T, F should be in capital!)
@@ -26,4 +26,5 @@ print(type(number))
 print(type(point))
 print(type(old))
 print(type(r))
+
 
