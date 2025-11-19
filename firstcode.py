@@ -26,5 +26,19 @@ print(type(number))
 print(type(point))
 print(type(old))
 print(type(r))
-
-
+# print Sum
+a=40
+b=11
+print(a+b,a-b,a*b,a/b,a%b,)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+# COMMENTS IN PYTHON
+#single line comment
+#shortcut for multiple line comment
+# "control" +"/"
+"""
+ Multi line
+  comment this is usefull.
+  """
