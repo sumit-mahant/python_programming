@@ -54,3 +54,8 @@ print(c>=d)#True
 print(c>d)#True
 print(c<=d)#False
 print(c<d)#False
+#assignment operators 
+num=10
+num+=5
+num-=3
+print("num:",num)
