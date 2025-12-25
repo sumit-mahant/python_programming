@@ -59,3 +59,10 @@ num=10
 num+=5
 num-=3
 print("num:",num)
+name1="paro"
+name2='paro'
+name3='''paro'''
+# all have same meaning. "",'','''''',
+print(name1)
+print(name2)
+print(name3)

@@ -16,7 +16,6 @@ str4=("today is the day when I born 20 years back so its signifecant")
 print(str4.count("o"))
 
 str1="mayank"
-str1 = str1.upper()
 print(str1)
 
 
