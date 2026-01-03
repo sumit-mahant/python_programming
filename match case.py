@@ -5,7 +5,9 @@ match x:
     case 4:
       print("x is four")
     case _ if x==99:
-      print("x is  equal to 99")
+      print(x," is  equal to 99")
       
     case _ if x==100:
-      print("x is equal to 100")
+      print(x," is equal to 100")
+    case _ if x<=30:
+      print(x,"is less than or equal to 30")
