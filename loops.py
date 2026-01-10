@@ -53,7 +53,7 @@
 # 
 #     
 # continue and break in python 
-for i in range(10):
+for i in range(100):
     
     if(i==6):
         print("skip the iteration")
@@ -65,7 +65,15 @@ for i in range(10):
 #         break
        
 #     print("6 X",p,"=",6*p)
-# print("I am out from this.")      
+# print("I am out from this.") 
+# Do while loop 
+i=0
+while True:
+    print(i)
+    i=i+1
+    if(i%100==0):
+        break
+
 
 
     
