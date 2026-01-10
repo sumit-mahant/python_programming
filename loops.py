@@ -53,19 +53,19 @@
 # 
 #     
 # continue and break in python 
-# for i in range(10):
+for i in range(10):
     
-    # if(i==6):
-    #     print("skip the iteration")
-    #     continue
-    # print("5X",i+1,"=",5*(i+1))
+    if(i==6):
+        print("skip the iteration")
+        continue
+    print("5X",i+1,"=",5*(i+1))
 
-for p in range(1,25,3):
-    if(p==20):
-        break
+# for p in range(1,25,3):
+#     if(p==20):
+#         break
        
-    print("6 X",p,"=",6*p)
-print("I am out from this.")      
+#     print("6 X",p,"=",6*p)
+# print("I am out from this.")      
 
 
     
