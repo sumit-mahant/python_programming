@@ -7,6 +7,6 @@ print("paro")
 print(15//2)
 print(15/2)
 print(2**3)
-a="10"
+a="10.3"
 b="5"
-print(int(a)+int(b))
+print(float(a)+int(b))#This is typecasting 
