@@ -25,19 +25,22 @@
 # print(len(lst))
 #  #METHODES IN LIST 
 l=[23,1,28,3,45,1,1,15,68,7,8]
-print(l[7:9])
-l.append(2)#we can add something at the last in list!!!!
+# print(l[7:9])
+# l.append(2)#we can add something at the last in list!!!!
+# print(l)
+# l.sort()#it will be saprate in assending order !!!
+# print(l)
+# l.sort(reverse=True)#desending order!!!
+# print(l)
+# l.reverse()
+# print(l)
+# print(l.index(8))
+# print(l.count(1))
+m=[22,67,890,786,456]
+l.extend(m)
 print(l)
-l.sort()#it will be saprate in assending order !!!
-print(l)
-l.sort(reverse=True)#desending order!!!
-print(l)
-l.reverse()
-print(l)
-print(l.index(8))
-print(l.count(1))
-m=l.copy()
-m[0]=0
-print(m)
+p=l+m
+print(p)
+
 
 
