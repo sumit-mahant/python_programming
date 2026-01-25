@@ -1,1 +1,5 @@
-print("hay boy ")
+tup=(1,"sumit",True)
+print(type(tup),tup)
+print(tup[0])
+print(tup[1])
+print(tup[2])
