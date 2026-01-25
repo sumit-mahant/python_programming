@@ -24,11 +24,16 @@
 # lst= [i for i in range(100) if i%2==0]
 # print(len(lst))
 #  #METHODES IN LIST 
-l=[1,2,3,4,5,6,7,8]
+l=[23,1,28,3,45,5,68,7,8]
 print(l[7:9])
 l.append(2)#we can add something at the last in list!!!!
 print(l)
-
+l.sort()#it will be saprate in assending order !!!
+print(l)
+l.sort(reverse=True)#desending order!!!
+print(l)
+l.reverse()
+print(l)
 
 
 
