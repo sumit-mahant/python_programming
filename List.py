@@ -26,7 +26,7 @@
 #  #METHODES IN LIST 
 l=[1,2,3,4,5,6,7,8]
 print(l[7:9])
-l.append(2)
+l.append(2)#we can add something at the last in list!!!!
 print(l)
 
 
