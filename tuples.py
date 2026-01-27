@@ -17,8 +17,9 @@ temp[2]="finland"#change item
 temp.pop(3)#remove item
 countries=tuple(temp)
 print(type(countries))
-desh=("palisthan", "china","austrelia")
+desh=("pakisthan", "china","austrelia")
 c=countries+ desh 
 print(c)
-
+tup1=(1,1,1,1,2,3,3,4,5,5,6,6,7,7,8)
+print(tup1.count(1))
 

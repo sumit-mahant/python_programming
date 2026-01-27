@@ -19,7 +19,7 @@ print(price)
 str3="paro."#sting== "",'', ''' ''', all works same!
 number=20#int
 point=20.345#float
-old=False#bool (T, F should be in capital!)
+old=False#bool (T, F MUST be in capital!)
 r=None#Nonetype
 print(type(str3))
 print(type(number))
