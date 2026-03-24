@@ -74,6 +74,9 @@ while True:
     if(i%100==0):
         break
 
+# from Functions import fibonacci
+# fibonacci(5)
+
 
 
     

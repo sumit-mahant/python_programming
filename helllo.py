@@ -18,4 +18,10 @@ print(str4.count("o"))
 str1="mayank"
 print(str1)
 
-
+a=10
+# b=a
+a=15
+b=a
+print(a)
+print(b)
+print("this is the end")
