@@ -67,8 +67,14 @@
 # print(name2)
 # print(name3)
 
-a=[1,2,3,4,5,5,6,]
-b=set[a]
-print(type(b))
-print(b)
-
+# a=[1,2,3,4,5,5,6,]
+# b=set[a]
+# print(type(b))
+# print(b)
+friends={"name":"sumit","bf":"amit ","num":3,}
+print(friends)
+print(type(friends))
+friends["course"]="B-tech"
+print(friends)
+del friends["course"]#to remove a key
+print(friends)
