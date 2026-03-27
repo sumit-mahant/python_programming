@@ -9,17 +9,24 @@
 #     print("noi.")
 # tup2=tup
 # print(tup2[1:3])
-#TUPLES ARE IMUTABLE SO IF WE WANT TO MAKE CHANGE IN THIS WE CONVERT IT INTO LIST THEN FOLLOW REVERSE PROCESS 
-countries=("India", "span","Englend","singapore")
-temp=list(countries)
-temp.append("Russia")#add item
-temp[2]="finland"#change item
-temp.pop(3)#remove item
-countries=tuple(temp)
-print(type(countries))
-desh=("pakisthan", "china","austrelia")
-c=countries+ desh 
-print(c)
-tup1=(1,1,1,1,2,3,3,4,5,5,6,6,7,7,8)
-print(tup1.count(1))
-
+# #TUPLES ARE IMUTABLE SO IF WE WANT TO MAKE CHANGE IN THIS WE CONVERT IT INTO LIST THEN FOLLOW REVERSE PROCESS 
+# countries=("India", "span","Englend","singapore")
+# temp=list(countries)
+# temp.append("Russia")#add item
+# temp[2]="finland"#change item
+# temp.pop(3)#remove item
+# countries=tuple(temp)
+# print(type(countries))
+# desh=("pakisthan", "china","austrelia")
+# c=countries+ desh 
+# print(c)
+# tup1=(1,1,1,1,2,3,3,4,5,5,6,6,7,7,8)
+# print(tup1.count(1))
+t=(10,20,30,40)
+test=list(t)
+test[0]=60
+test[1]=70
+test[2]=80
+test[3]=90
+t=tuple(test)
+print(t)

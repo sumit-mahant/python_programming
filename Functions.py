@@ -85,6 +85,8 @@ for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
 
+z="sumit"
+
 
 
     

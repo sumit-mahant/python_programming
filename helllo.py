@@ -1,4 +1,5 @@
 print("hello world")
+dir("sumit")
 str1="sumit is the best coder in the world"
 str2="mahant is the cast of sumit which realy dose not matter "
 print(str1+str2)
@@ -25,3 +26,5 @@ b=a
 print(a)
 print(b)
 print("this is the end")
+
+print
