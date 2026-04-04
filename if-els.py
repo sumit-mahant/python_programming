@@ -43,8 +43,29 @@
 # else:
 #     print('you can drive')
 # print("be careful.")       
-you=bool(input("it's raining-(True/False)"))
-if(you==True):
-    print("stay at your home")
-else:
-    print("come college ")
+# you=bool(input("it's raining-(True/False)"))
+# if(you==True):
+#     print("stay at your home")
+# else:
+#     print("come college ")
+# num=int(input("enter your value-"))
+# num2=int(input("enter your second number-"))
+# op=str(input("wht you want to do -"  )
+# sum=num+num2
+# num=input("your word-" )
+# b=num[ -1]
+# if(num==b):
+#     print("your word is palindrom")
+
+# else:
+#     print("your word is not palindrom")
+# num=int(input("enter your number-"))
+# if(num<0):
+#     print("your number is negative")
+# elif(num==0):
+#     print("your number is 0")
+# else:
+#     print("your number is positive")
+
+# lt=input("enter your latter")
+  
