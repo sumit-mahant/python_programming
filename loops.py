@@ -5,11 +5,11 @@
 #         print("from here sirname has started.")
 
 
-# colors=["green","red","yellow","chutiya",]
-# for x in colors:
-#     print(x)
-#     for i in x:
-#         print(i)
+colors=["green","red","yellow","chutiya",]
+for x in colors:
+    print(x)
+    for i in x:
+        print(i)
 
 # for k in range(50):
 #  print(k+1)
